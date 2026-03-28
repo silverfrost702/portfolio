@@ -20,7 +20,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Algorithmic Archive - Anuva Negi",
+  title: "Anuva Negi",
   description: "Portfolio of Anuva Negi, Data Science Graduate Student at UTA.",
 };
 
