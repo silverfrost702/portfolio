@@ -14,7 +14,7 @@ export default function ContactPage() {
           Let&apos;s <span className="text-primary italic">Connect</span>
         </h1>
         <p className="text-lg text-on-surface-variant max-w-xl font-body leading-relaxed">
-          Whether you have a specific project in mind, want to discuss data strategies, or just say hi, I&apos;m always open to new connections and collaborations.
+          I am actively open to new opportunities, so please feel free to connect!
         </p>
       </header>
 
