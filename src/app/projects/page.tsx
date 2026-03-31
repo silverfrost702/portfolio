@@ -38,10 +38,14 @@ export default function HomePage() {
               <p className="text-on-surface-variant mb-6 font-body leading-relaxed max-w-2xl">
                 A dual-approach system designed to classify current air quality and predict future smog concentrations using time-series analysis. Leveraging atmospheric data to provide actionable environmental insights.
               </p>
-              <a className="inline-flex items-center gap-2 text-primary font-label font-bold group/link" href="https://github.com/anuvanegi">
-                ARCHIVE REPOSITORY 
-                <span className="material-symbols-outlined text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
-              </a>
+              <div className="flex flex-wrap gap-6 items-center">
+                <a className="inline-flex items-center text-primary font-label font-bold tracking-widest uppercase text-sm hover:opacity-70 transition-opacity" href="https://github.com/silverfrost702/SmogCast-Predicting-and-Forecasting-Air-Quality-in-India" target="_blank" rel="noopener noreferrer">
+                  Link to Repo
+                </a>
+                <a className="inline-flex items-center text-primary font-label font-bold tracking-widest uppercase text-sm hover:opacity-70 transition-opacity" href="https://smogcast.streamlit.app/" target="_blank" rel="noopener noreferrer">
+                  View Live
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -49,10 +53,12 @@ export default function HomePage() {
         <div className="md:col-span-4 group">
           <div className="bg-surface-container-high rounded-xl p-8 flex flex-col h-full border-b-4 border-tertiary/20 hover:border-tertiary transition-all duration-500">
             <div className="mb-auto">
-              <span className="material-symbols-outlined text-tertiary text-4xl mb-6" style={{ fontVariationSettings: "'FILL' 1" }}>terminal</span>
+              <div className="text-tertiary text-4xl mb-6 font-black font-mono">
+                {">_"}
+              </div>
               <h3 className="text-2xl font-headline font-bold text-on-surface mb-3">HackUTA 7</h3>
-              <p className="text-on-surface-variant text-sm font-body leading-relaxed">
-                Competitive engineering challenge project. Focused on rapid prototyping of data-driven solutions under high-pressure constraints.
+              <p className="text-on-surface-variant text-sm font-body leading-relaxed max-w-sm">
+                A collaborative project where I worked in a group and generated tool called CivicScribe—a universal, AI-powered web application that helps users fill out complex PDF forms through a simple, conversational chat interface. The system is extensible via "Form Packs" to support any form without requiring code changes.
               </p>
             </div>
             <div className="mt-8">
@@ -60,7 +66,7 @@ export default function HomePage() {
                 <span className="px-2 py-0.5 rounded-full bg-surface-container-highest text-[9px] font-label font-bold text-tertiary uppercase">Flask</span>
                 <span className="px-2 py-0.5 rounded-full bg-surface-container-highest text-[9px] font-label font-bold text-tertiary uppercase">OpenAI API</span>
               </div>
-              <a className="text-tertiary font-label text-xs tracking-widest font-black uppercase hover:opacity-70 transition-opacity" href="#">Access Source</a>
+              <a className="text-tertiary font-label text-xs tracking-widest font-black uppercase hover:opacity-70 transition-opacity" href="https://github.com/silverfrost702/HACKUTA-7" target="_blank" rel="noopener noreferrer">Access Source</a>
             </div>
           </div>
         </div>
@@ -73,14 +79,16 @@ export default function HomePage() {
             <div className="p-6">
               <h3 className="text-xl font-headline font-bold text-on-surface mb-2">SpaceX Launch Success Prediction</h3>
               <p className="text-sm text-on-surface-variant font-body mb-6">
-                Predicting booster landing success using historical telemetry and logistic regression models.
+                Predicting the success of SpaceX rocket launches using mission parameters, payloads, and rocket configurations with machine learning.
               </p>
               <div className="flex items-center justify-between">
                 <div className="flex -space-x-2">
                   <div className="w-6 h-6 rounded-full bg-primary-container border-2 border-surface-container-highest flex items-center justify-center text-[8px] font-black text-on-primary-container">PY</div>
                   <div className="w-6 h-6 rounded-full bg-secondary-container border-2 border-surface-container-highest flex items-center justify-center text-[8px] font-black text-on-secondary-container">SQL</div>
                 </div>
-                <span className="material-symbols-outlined text-primary group-hover:translate-x-1 transition-transform">north_east</span>
+                <a href="https://github.com/silverfrost702/Projects/tree/main/SpaceX_Launch_Success_Prediction" target="_blank" rel="noopener noreferrer" className="text-primary font-label text-xs tracking-widest font-black uppercase hover:opacity-70 transition-opacity">
+                  Visit Repo
+                </a>
               </div>
             </div>
           </div>
@@ -94,12 +102,15 @@ export default function HomePage() {
               </div>
               <h3 className="text-2xl font-headline font-bold text-on-surface mb-4">Tech Layoff Trends Analysis</h3>
               <p className="text-on-surface-variant font-body text-sm leading-relaxed mb-6">
-                A deep dive into global tech industry shifts. Analyzing economic variables and company metadata to map the trajectory of industry workforce changes. 
+                This project explores the global tech layoff trends between 2020 and 2025 using visualization and data-driven insights. The goal is to identify which industries, countries, and companies were most affected and highlight temporal trends in layoffs.
               </p>
-              <div className="flex gap-4">
+              <div className="flex gap-4 items-center">
                 <span className="text-[10px] font-label font-bold text-primary uppercase">Tableau</span>
                 <span className="text-[10px] font-label font-bold text-primary uppercase">Pandas</span>
                 <span className="text-[10px] font-label font-bold text-primary uppercase">EDA</span>
+                <a href="https://github.com/silverfrost702/Projects/tree/main/tech_layoff_trends" target="_blank" rel="noopener noreferrer" className="ml-auto text-primary font-label text-xs tracking-widest font-black uppercase hover:opacity-70 transition-opacity">
+                  Visit Repo
+                </a>
               </div>
             </div>
             <div className="glass-card p-4 rounded-lg">
@@ -116,26 +127,21 @@ export default function HomePage() {
                 <div className="inline-block px-3 py-1 rounded bg-tertiary/10 text-tertiary text-[10px] font-black uppercase tracking-[0.2em] mb-4">User Experience / Audio Analytics</div>
                 <h3 className="text-4xl font-headline font-bold text-on-surface mb-6">Spotify Music Analysis Dashboard</h3>
                 <p className="text-on-surface-variant font-body leading-relaxed mb-8 text-lg">
-                  Real-time interaction with personal listening habits. This dashboard processes Spotify API data to visualize audio features like valence, energy, and acousticness across preferred playlists.
+                  This project presents an interactive Spotify Music Analysis Dashboard built in Power BI, designed to visualize global music streaming trends, track popularity, and artist performance metrics.
                 </p>
                 <div className="flex flex-wrap gap-4 mb-8">
                   <div className="flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-primary"></span>
-                    <span className="text-xs font-label text-on-surface">Streamlit</span>
+                    <span className="text-xs font-label text-on-surface">Power BI</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-primary"></span>
-                    <span className="text-xs font-label text-on-surface">Spotipy</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-primary"></span>
-                    <span className="text-xs font-label text-on-surface">Plotly</span>
+                    <span className="text-xs font-label text-on-surface">Data Visualization</span>
                   </div>
                 </div>
-                <button className="px-8 py-3 bg-white/5 border border-white/10 hover:bg-white/10 rounded-full font-label font-bold text-sm transition-all flex items-center gap-3">
-                  <span className="material-symbols-outlined text-base">code</span>
+                <a href="https://github.com/silverfrost702/Projects/tree/main/Spotify%20Music%20Analysis" target="_blank" rel="noopener noreferrer" className="inline-flex px-8 py-3 bg-white/5 border border-white/10 hover:bg-white/10 rounded-full font-label font-bold text-sm transition-all items-center gap-3 w-fit">
                   VIEW ON GITHUB
-                </button>
+                </a>
               </div>
               <div className="flex-1 order-1 md:order-2">
                 <img className="rounded-xl shadow-2xl transform group-hover:rotate-1 group-hover:scale-[1.02] transition-transform duration-700" alt="clean UI interface showing musical audio feature analysis with circular radar charts in vibrant cyan and magenta" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBn4Q5R_jn57NUVYMsymlPrA3950usKGQCJd8SnMEB40fyeglz1itLOh_LWhva8dHUy1l-rl2AfKfSl1XwzH9bZU0HT7bw30QmsiwYUKWWjntCoUggquMx-CpxWgw17EQrgRLL-ZvLFUO87grTWpyNITE3oVt0f-4wYzISvIjh5VO9iwgzZAtBUhUhhApEp4GOTLE2GEP6hdR00FmZrt6uUmcH9TP5WdZFNqQ-obCilzdZ7aaQtRIqGjEvG6ij9yEd0roghMEn5c7_v"/>
