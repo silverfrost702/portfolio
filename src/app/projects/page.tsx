@@ -144,7 +144,7 @@ export default function HomePage() {
                 </a>
               </div>
               <div className="flex-1 order-1 md:order-2">
-                <img className="rounded-xl shadow-2xl transform group-hover:rotate-1 group-hover:scale-[1.02] transition-transform duration-700" alt="clean UI interface showing musical audio feature analysis with circular radar charts in vibrant cyan and magenta" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBn4Q5R_jn57NUVYMsymlPrA3950usKGQCJd8SnMEB40fyeglz1itLOh_LWhva8dHUy1l-rl2AfKfSl1XwzH9bZU0HT7bw30QmsiwYUKWWjntCoUggquMx-CpxWgw17EQrgRLL-ZvLFUO87grTWpyNITE3oVt0f-4wYzISvIjh5VO9iwgzZAtBUhUhhApEp4GOTLE2GEP6hdR00FmZrt6uUmcH9TP5WdZFNqQ-obCilzdZ7aaQtRIqGjEvG6ij9yEd0roghMEn5c7_v"/>
+                <img className="rounded-xl shadow-2xl transform group-hover:rotate-1 group-hover:scale-[1.02] transition-transform duration-700" alt="clean UI interface showing musical audio feature analysis with circular radar charts in vibrant cyan and magenta" src="/dashboard_img.jpg"/>
               </div>
             </div>
           </div>
