@@ -32,7 +32,7 @@ export default function HomePage() {
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="px-3 py-1 rounded-full bg-surface-container-highest text-[10px] font-label font-semibold text-primary uppercase">Python</span>
                 <span className="px-3 py-1 rounded-full bg-surface-container-highest text-[10px] font-label font-semibold text-primary uppercase">Scikit-Learn</span>
-                <span className="px-3 py-1 rounded-full bg-surface-container-highest text-[10px] font-label font-semibold text-primary uppercase">Prophet</span>
+                <span className="px-3 py-1 rounded-full bg-surface-container-highest text-[10px] font-label font-semibold text-primary uppercase">Bi-LSTM</span>
               </div>
               <h3 className="text-3xl font-headline font-bold text-on-surface mb-3">SmogCast: Air Quality Classification &amp; Forecasting</h3>
               <p className="text-on-surface-variant mb-6 font-body leading-relaxed max-w-2xl">
