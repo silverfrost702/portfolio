@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <main className="pt-32 pb-24 data-grid-bg flex-grow">
       <div className="max-w-7xl mx-auto px-8">
-        <section className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-32 items-start">
+        <section className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-32 items-stretch">
           <div className="lg:col-span-5 order-2 lg:order-1">
             <div className="inline-block px-3 py-1 rounded-full bg-surface-container-high border border-outline-variant/20 mb-6">
               <span className="text-primary font-label text-xs tracking-widest uppercase font-bold">
@@ -35,16 +35,16 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="lg:col-span-7 order-1 lg:order-2 flex justify-center lg:justify-end relative">
-            <div className="relative w-full max-w-md aspect-[4/5] overflow-hidden rounded-xl border border-outline-variant/10 shadow-2xl">
+          <div className="lg:col-span-7 order-1 lg:order-2 relative h-full">
+            <div className="sticky top-32 w-full max-w-md mx-auto lg:mr-0 lg:ml-auto aspect-[4/5] overflow-hidden rounded-xl border border-outline-variant/10 shadow-2xl">
               <Image
                 alt="Anuva Negi Profile"
                 className="w-full h-full object-cover transition-all duration-700"
                 src={profilePic}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+              <div className="absolute -bottom-6 -left-6 w-48 h-48 bg-primary/10 blur-[100px] rounded-full pointer-events-none"></div>
             </div>
-            <div className="absolute -bottom-6 -left-6 w-48 h-48 bg-primary/10 blur-[100px] rounded-full"></div>
           </div>
         </section>
 
