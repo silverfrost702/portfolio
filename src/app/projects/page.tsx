@@ -144,7 +144,7 @@ export default function HomePage() {
                 </a>
               </div>
               <div className="flex-1 order-1 md:order-2">
-                <img className="rounded-xl shadow-2xl transform group-hover:rotate-1 group-hover:scale-[1.02] transition-transform duration-700" alt="clean UI interface showing musical audio feature analysis with circular radar charts in vibrant cyan and magenta" src="/dashboard_img.jpg"/>
+                <img className="rounded-xl shadow-2xl grayscale group-hover:grayscale-0 transition-all duration-500" alt="clean UI interface showing musical audio feature analysis with circular radar charts in vibrant cyan and magenta" src="/dashboard_img.jpg"/>
               </div>
             </div>
           </div>
