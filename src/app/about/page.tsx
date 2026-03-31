@@ -10,27 +10,28 @@ export default function AboutPage() {
           <div className="lg:col-span-5 order-2 lg:order-1">
             <div className="inline-block px-3 py-1 rounded-full bg-surface-container-high border border-outline-variant/20 mb-6">
               <span className="text-primary font-label text-xs tracking-widest uppercase font-bold">
-                Researcher & Architect
+                DATA SCIENTIST & ANALYST
               </span>
             </div>
-            <h1 className="text-5xl lg:text-7xl font-headline font-bold text-on-surface tracking-tighter leading-tight mb-8">
+            <h1 className="text-5xl lg:text-7xl font-headline font-bold text-on-surface tracking-tighter leading-tight mb-4">
               Anuva <span className="text-primary">Negi</span>
             </h1>
+            <p className="text-xl font-headline italic text-on-surface w-full mb-8 border-l-4 border-tertiary pl-4">
+              "Data is the absolute power; the ability to shape and wield it is the ability to forge the future."
+            </p>
             <div className="space-y-6 text-on-surface-variant font-body text-lg leading-relaxed">
-              <p>
-                I am a Data Science Graduate Student at the{" "}
-                <span className="text-on-surface font-semibold">
-                  University of Texas at Arlington
-                </span>
-                , specializing in the intersection of high-fidelity predictive modeling and industrial-grade data pipelines.
-              </p>
-              <p>
-                My approach to data science is rooted in the belief that algorithms should be as robust as they are insightful. I focus on architecting end-to-end systems that transform raw, unstructured data streams into actionable intelligence at scale.
-              </p>
-              <p>
-                Whether I am optimizing deep learning weights or streamlining Spark-based ETL processes, my goal is to build an{" "}
-                <span className="text-tertiary">Algorithmic Archive</span>—a legacy of data-driven solutions that solve real-world complexities.
-              </p>
+              <div>
+                <strong className="text-on-surface font-headline uppercase tracking-wide text-sm mb-1 block">The Perspective</strong>
+                <p>I am a Data Science Graduate Student at the University of Texas at Arlington with a 4.0/4.0 GPA. My expertise lies in the intersection of high-fidelity predictive modeling and industrial-grade data pipelines, with a focus on turning raw, unstructured data into actionable intelligence at scale.</p>
+              </div>
+              <div>
+                <strong className="text-on-surface font-headline uppercase tracking-wide text-sm mb-1 block">Capstone Impact</strong>
+                <p>As part of my MS program, I am currently leading a Capstone Project for the Office of Information Technology (OIT). My work involves analyzing high-priority incidents to extract logical insights that help the organization plan more effectively and resolve infrastructure challenges. In this role, I serve as the Executive Summary & Volume Lead, bridging the gap between deep technical analysis and strategic executive reporting.</p>
+              </div>
+              <div>
+                <strong className="text-on-surface font-headline uppercase tracking-wide text-sm mb-1 block">Beyond The Data</strong>
+                <p>I believe the best technical solutions come from a clear mind. On challenging days, I find my momentum by taking small breaks—a quiet cup of coffee or a short walk. Stepping away from the complexity for a moment allows me to return with the focus needed to handle high-pressure situations.</p>
+              </div>
             </div>
           </div>
 
@@ -50,7 +51,7 @@ export default function AboutPage() {
         <section className="mb-32">
           <div className="mb-12">
             <h2 className="text-3xl font-headline font-bold tracking-tight text-on-surface">
-              Academic Pedigree
+              Milestones & Expertise
             </h2>
             <div className="w-16 h-1 bg-primary mt-4"></div>
           </div>
@@ -86,40 +87,42 @@ export default function AboutPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                   <div>
                     <h4 className="text-primary font-label text-xs font-black uppercase tracking-widest mb-4">
-                      Core Focus
+                      Domain Expertise
                     </h4>
                     <ul className="space-y-3 text-on-surface-variant text-sm font-body">
                       <li className="flex items-center gap-2">
                         <span className="w-1.5 h-1.5 bg-tertiary rounded-full"></span>{" "}
-                        Predictive Modeling
+                        Statistical Analysis
                       </li>
                       <li className="flex items-center gap-2">
                         <span className="w-1.5 h-1.5 bg-tertiary rounded-full"></span>{" "}
-                        Neural Architecture Search
+                        Business Intelligence
                       </li>
                       <li className="flex items-center gap-2">
                         <span className="w-1.5 h-1.5 bg-tertiary rounded-full"></span>{" "}
-                        Distributed Systems
+                        Data Storytelling
                       </li>
                     </ul>
                   </div>
 
                   <div>
                     <h4 className="text-primary font-label text-xs font-black uppercase tracking-widest mb-4">
-                      Key Coursework
+                      Key Milestones
                     </h4>
-                    <ul className="space-y-3 text-on-surface-variant text-sm font-body">
-                      <li className="flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 bg-tertiary rounded-full"></span>{" "}
-                        Advanced Stats Learning
+                    <ul className="space-y-4 text-on-surface-variant text-sm font-body">
+                      <li className="flex flex-col gap-1">
+                        <span className="text-on-surface font-semibold flex items-center gap-2">
+                          <span className="w-1.5 h-1.5 bg-tertiary rounded-full"></span>{" "}
+                          Data Quest Champion
+                        </span>
+                        <span className="pl-3.5 leading-relaxed">Led a team to 1st Place in the university-wide data science competition organized by the DATA organization at UTA.</span>
                       </li>
-                      <li className="flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 bg-tertiary rounded-full"></span>{" "}
-                        Cloud Infrastructure
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 bg-tertiary rounded-full"></span>{" "}
-                        NLP Pipelines
+                      <li className="flex flex-col gap-1">
+                        <span className="text-on-surface font-semibold flex items-center gap-2">
+                          <span className="w-1.5 h-1.5 bg-tertiary rounded-full"></span>{" "}
+                          Advanced Specialization
+                        </span>
+                        <span className="pl-3.5 leading-relaxed">Deep expertise in Distributed Systems, Statistical Learning, and NLP Pipelines.</span>
                       </li>
                     </ul>
                   </div>
@@ -137,7 +140,7 @@ export default function AboutPage() {
                   database
                 </span>
                 <h3 className="text-xl font-headline font-bold mb-4">
-                  Data Pipelines
+                  Data Engineering & Pipelines
                 </h3>
                 <p className="text-on-surface-variant text-sm leading-relaxed mb-6 font-body">
                   Engineering highly available ETL architectures using Spark, Airflow, and Kubernetes to handle multi-terabyte datasets without latency degradation.
@@ -145,13 +148,13 @@ export default function AboutPage() {
               </div>
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] font-bold tracking-tighter font-label text-primary uppercase">
-                  Apache Spark
+                  Distributed Computing
                 </span>
                 <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] font-bold tracking-tighter font-label text-primary uppercase">
-                  Kafka
+                  ETL Architectures
                 </span>
                 <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] font-bold tracking-tighter font-label text-primary uppercase">
-                  AWS Glue
+                  Cloud Infrastructure
                 </span>
               </div>
             </div>
@@ -162,7 +165,7 @@ export default function AboutPage() {
                   query_stats
                 </span>
                 <h3 className="text-xl font-headline font-bold mb-4">
-                  Predictive Analytics
+                  Predictive Modeling & Forecasting
                 </h3>
                 <p className="text-on-surface-variant text-sm leading-relaxed mb-6 font-body">
                   Developing bespoke machine learning models with a focus on interpretability and bias-mitigation for enterprise-level forecasting.
@@ -173,10 +176,10 @@ export default function AboutPage() {
                   XGBoost
                 </span>
                 <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] font-bold tracking-tighter font-label text-tertiary uppercase">
-                  PyTorch
+                  Time-Series Forecasting
                 </span>
                 <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] font-bold tracking-tighter font-label text-tertiary uppercase">
-                  SciKit-Learn
+                  Bias Mitigation
                 </span>
               </div>
             </div>
