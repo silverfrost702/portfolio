@@ -60,9 +60,14 @@ export default function AboutPage() {
             <div className="md:col-span-2 bg-surface-container-low p-10 rounded-xl relative overflow-hidden">
               <div className="relative z-10">
                 <div className="flex items-center gap-4 mb-8">
-                  <span className="material-symbols-outlined text-primary scale-150">
-                    school
-                  </span>
+                  <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                    <path d="M3 21h18"></path>
+                    <path d="M3 7v1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7H3l9-4 9 4"></path>
+                    <line x1="6" y1="21" x2="6" y2="12"></line>
+                    <line x1="10" y1="21" x2="10" y2="12"></line>
+                    <line x1="14" y1="21" x2="14" y2="12"></line>
+                    <line x1="18" y1="21" x2="18" y2="12"></line>
+                  </svg>
                   <h3 className="text-2xl font-headline font-bold">
                     M.S. in Data Science
                   </h3>
@@ -74,7 +79,7 @@ export default function AboutPage() {
                       University of Texas at Arlington
                     </p>
                     <p className="text-on-surface-variant font-label text-sm uppercase tracking-widest mt-1">
-                      Expected 2025
+                      Expected 2026
                     </p>
                   </div>
                   <div className="mt-4 md:mt-0">
