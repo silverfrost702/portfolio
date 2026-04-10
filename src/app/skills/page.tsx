@@ -82,7 +82,7 @@ export default function SkillsPage() {
           </div>
           <h3 className="text-3xl font-headline font-bold text-tertiary mb-8">Machine Learning &amp; Analytics</h3>
           <div className="space-y-6 max-w-xl">
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-12">
               <div className="w-12 h-12 rounded-lg bg-tertiary/10 flex items-center justify-center shrink-0 relative">
                 <span className="material-symbols-outlined text-tertiary absolute left-1/2 -translate-x-1/2">Perception</span>
               </div>
@@ -91,7 +91,7 @@ export default function SkillsPage() {
                 <p className="text-on-surface-variant text-sm">Specializing in CNNs and Transformer architectures for unstructured data analysis.</p>
               </div>
             </div>
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-12">
               <div className="w-12 h-12 rounded-lg bg-tertiary/10 flex items-center justify-center shrink-0 relative">
                 <span className="material-symbols-outlined text-tertiary absolute left-1/2 -translate-x-1/2">Inference</span>
               </div>
@@ -100,7 +100,7 @@ export default function SkillsPage() {
                 <p className="text-on-surface-variant text-sm">Forecasting outcomes using ensemble methods and Bayesian statistics.</p>
               </div>
             </div>
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-12">
               <div className="w-12 h-12 rounded-lg bg-tertiary/10 flex items-center justify-center shrink-0 relative">
                 <span className="material-symbols-outlined text-tertiary absolute left-1/2 -translate-x-1/2">Correlation</span>
               </div>
