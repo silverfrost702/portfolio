@@ -21,6 +21,38 @@ export default function HomePage() {
 
       {/* Projects Bento Grid */}
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6 relative z-10">
+        {/* Project 6: OIT Sentinel */}
+        <div className="md:col-span-12 group">
+          <div className="relative rounded-xl overflow-hidden bg-surface-container border border-outline-variant/10 hover:border-primary/30 transition-all duration-500">
+            <div className="absolute inset-0 opacity-10 pointer-events-none data-grid-bg"></div>
+            <div className="relative z-10 p-10 flex flex-col md:flex-row gap-12 items-center">
+              <div className="flex-1">
+                <div className="inline-block px-3 py-1 rounded bg-primary/10 text-primary text-[10px] font-black uppercase tracking-[0.2em] mb-4">Year over Year Analysis of High Priority Service Incidents</div>
+                <h3 className="text-3xl lg:text-4xl font-headline font-bold text-on-surface mb-6 leading-tight">OIT Sentinel: Predictive Analytics for Academic Incident Management</h3>
+                <p className="text-on-surface-variant font-body leading-relaxed mb-6">
+                  Collaborated with the Office of Information Technology (OIT) to transition their high-priority incident management from a reactive to a proactive model. By identifying the &quot;Academic Pulse&quot;—the rhythmic surge of technical issues aligned with the university’s academic calendar—I developed a forecasting system that isolates cyclical trends from random &quot;Black Swan&quot; events.
+                </p>
+                <div className="space-y-4 mb-8 text-sm font-body">
+                  <p><strong className="text-on-surface">The Problem:</strong> OIT faced unpredictable resource strain during peak semester windows (Finals/Midterms).</p>
+                  <p><strong className="text-on-surface">The Solution:</strong> Implemented a Holt-Winters Seasonal Decomposition model to map Trend, Seasonality, and Residuals of P1/P2 incidents.</p>
+                  <p><strong className="text-on-surface">The Impact:</strong> Achieved a 91.1% Fit Confidence for P2 incidents, providing a 12-week operational roadmap that allows OIT to optimize staffing shifts and proactively refresh hardware in identified geographic hotspots (e.g., ERB and Nedderman Hall).</p>
+                </div>
+                <div className="flex flex-wrap gap-2 mb-8">
+                  {["Python", "Statsmodels", "Holt-Winters", "Predictive Analytics", "Operational Intelligence"].map(tag => (
+                    <span key={tag} className="px-3 py-1 rounded-full bg-surface-container-highest text-[10px] font-label font-bold text-primary uppercase border border-outline-variant/20">{tag}</span>
+                  ))}
+                </div>
+                <a href="#" className="inline-flex items-center text-primary font-label font-bold tracking-widest uppercase text-sm hover:opacity-70 transition-opacity">
+                  Access Source Code
+                </a>
+              </div>
+              <div className="flex-1 w-full lg:w-1/2 rounded-xl overflow-hidden shadow-2xl relative">
+                <img className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105 transform origin-center" alt="An abstract visualization of a time-series line graph with glowing neon cyan and teal peaks" src="/oit_sentinel_abstract.png"/>
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent"></div>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* Project 1: SmogCast */}
         <div className="md:col-span-8 group">
           <div className="bg-surface-container-low rounded-xl overflow-hidden h-full border-b-4 border-primary/20 hover:border-primary transition-all duration-500">
