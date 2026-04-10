@@ -25,7 +25,7 @@ export default function AboutPage() {
                 <p>I am a Data Science Graduate Student at the University of Texas at Arlington with a 4.0/4.0 GPA. My expertise lies in the intersection of high-fidelity predictive modeling and industrial-grade data pipelines, with a focus on turning raw, unstructured data into actionable intelligence at scale.</p>
               </div>
               <div>
-                <strong className="text-on-surface font-headline uppercase tracking-wide text-sm mb-1 block">Capstone Impact</strong>
+                <strong className="text-on-surface font-headline uppercase tracking-we text-sm mb-1 block">Capstone Impact</strong>
                 <p>As part of my MS program, I am currently leading a Capstone Project for the Office of Information Technology (OIT). My work involves analyzing high-priority incidents to extract logical insights that help the organization plan more effectively and resolve infrastructure challenges. In this role, I serve as the Executive Summary & Volume Lead, bridging the gap between deep technical analysis and strategic executive reporting.</p>
               </div>
               <div>
@@ -167,7 +167,7 @@ export default function AboutPage() {
             <div className="bg-surface-container-high p-8 rounded-xl flex flex-col justify-between border-t-4 border-primary">
               <div>
                 <span className="material-symbols-outlined text-primary mb-6">
-                  query_stats
+                  insights
                 </span>
                 <h3 className="text-xl font-headline font-bold mb-4">
                   Predictive Modeling & Forecasting
@@ -193,7 +193,7 @@ export default function AboutPage() {
               <div className="hidden sm:block">
                 <div className="w-32 h-32 rounded-full border-2 border-dashed border-primary/30 flex items-center justify-center p-4">
                   <span className="material-symbols-outlined text-primary text-5xl">
-                    terminal
+                    Veracity
                   </span>
                 </div>
               </div>

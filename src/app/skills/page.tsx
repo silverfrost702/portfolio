@@ -28,7 +28,7 @@ export default function SkillsPage() {
               <h3 className="text-2xl font-headline font-bold text-primary mb-2">Programming</h3>
               <p className="text-on-surface-variant text-sm">Foundational logic and high-level scripting languages.</p>
             </div>
-            <span className="material-symbols-outlined text-4xl text-primary/40 group-hover:text-primary transition-colors">terminal</span>
+            <span className="material-symbols-outlined text-4xl text-primary/40 group-hover:text-primary transition-colors">code</span>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="bg-surface-container-high p-4 rounded-xl flex flex-col gap-3 group/item">
@@ -83,8 +83,8 @@ export default function SkillsPage() {
           <h3 className="text-3xl font-headline font-bold text-tertiary mb-8">Machine Learning &amp; Analytics</h3>
           <div className="space-y-6 max-w-xl">
             <div className="flex items-center gap-6">
-              <div className="w-12 h-12 rounded-lg bg-tertiary/10 flex items-center justify-center shrink-0">
-                <span className="material-symbols-outlined text-tertiary">neurology</span>
+              <div className="w-12 h-12 rounded-lg bg-tertiary/10 flex items-center justify-center shrink-0 relative">
+                <span className="material-symbols-outlined text-tertiary absolute left-1/2 -translate-x-1/2">Perception</span>
               </div>
               <div>
                 <h4 className="font-headline font-bold text-on-surface">Deep Learning</h4>
@@ -92,8 +92,8 @@ export default function SkillsPage() {
               </div>
             </div>
             <div className="flex items-center gap-6">
-              <div className="w-12 h-12 rounded-lg bg-tertiary/10 flex items-center justify-center shrink-0">
-                <span className="material-symbols-outlined text-tertiary">query_stats</span>
+              <div className="w-12 h-12 rounded-lg bg-tertiary/10 flex items-center justify-center shrink-0 relative">
+                <span className="material-symbols-outlined text-tertiary absolute left-1/2 -translate-x-1/2">Inference</span>
               </div>
               <div>
                 <h4 className="font-headline font-bold text-on-surface">Predictive Modeling</h4>
@@ -101,8 +101,8 @@ export default function SkillsPage() {
               </div>
             </div>
             <div className="flex items-center gap-6">
-              <div className="w-12 h-12 rounded-lg bg-tertiary/10 flex items-center justify-center shrink-0">
-                <span className="material-symbols-outlined text-tertiary">monitoring</span>
+              <div className="w-12 h-12 rounded-lg bg-tertiary/10 flex items-center justify-center shrink-0 relative">
+                <span className="material-symbols-outlined text-tertiary absolute left-1/2 -translate-x-1/2">Correlation</span>
               </div>
               <div>
                 <h4 className="font-headline font-bold text-on-surface">Regression Analysis</h4>
