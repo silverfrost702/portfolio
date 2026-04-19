@@ -181,6 +181,35 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+        {/* Project 7: Pokémon Data Showdown */}
+        <div className="md:col-span-12 group">
+          <div className="relative rounded-xl overflow-hidden bg-surface-container border border-outline-variant/10 hover:border-tertiary/30 transition-all duration-500">
+            <div className="absolute inset-0 opacity-5 pointer-events-none data-grid-bg"></div>
+            <div className="relative z-10 p-10 flex flex-col md:flex-row gap-12 items-center">
+              <div className="flex-1">
+                <div className="inline-block px-3 py-1 rounded bg-tertiary/10 text-tertiary text-[10px] font-black uppercase tracking-[0.2em] mb-4">Machine Learning / Data Analytics</div>
+                <h3 className="text-3xl lg:text-4xl font-headline font-bold text-on-surface mb-6 leading-tight">Pokémon Data Showdown</h3>
+                <p className="text-on-surface-variant font-body leading-relaxed mb-8">
+                  An interactive data analysis toolkit and dashboard designed to explore the structure of Pokémon battle attributes. It leverages unsupervised machine learning to uncover stat-based roles, provides deep exploratory data analysis (EDA), and includes an optimized team builder constrained by statistical budgets.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-8">
+                  {["Python", "Streamlit", "Scikit-Learn", "Plotly"].map(tag => (
+                    <span key={tag} className="px-3 py-1 rounded-full bg-surface-container-highest text-[10px] font-label font-bold text-tertiary uppercase border border-outline-variant/20">{tag}</span>
+                  ))}
+                </div>
+                <div className="flex flex-wrap gap-6 items-center">
+                  <a href="https://github.com/silverfrost702/data_showdown" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-tertiary font-label font-bold tracking-widest uppercase text-sm hover:opacity-70 transition-opacity">
+                    Access Source Code
+                  </a>
+                </div>
+              </div>
+              <div className="w-full lg:max-w-md xl:max-w-lg aspect-[4/3] rounded-xl overflow-hidden shadow-2xl relative lg:ml-auto bg-surface-container-highest">
+                <img className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105 transform origin-center" alt="Pokemon Data Showdown application showing scatter plots and data analysis" src="https://raw.githubusercontent.com/silverfrost702/data_showdown/main/plots/pokemon_main_img.webp"/>
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   );
