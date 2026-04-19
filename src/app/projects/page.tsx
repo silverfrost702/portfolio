@@ -81,24 +81,31 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        {/* Project 2: HackUTA */}
+        {/* Project 7: Pokémon Data Showdown */}
         <div className="md:col-span-4 group">
-          <div className="bg-surface-container-high rounded-xl p-8 flex flex-col h-full border-b-4 border-tertiary/20 hover:border-tertiary transition-all duration-500">
-            <div className="mb-auto">
-              <div className="text-tertiary text-4xl mb-6 font-black font-mono">
-                {">_"}
-              </div>
-              <h3 className="text-2xl font-headline font-bold text-on-surface mb-3">HackUTA 7</h3>
-              <p className="text-on-surface-variant text-sm font-body leading-relaxed max-w-sm">
-                A collaborative project where I worked in a group and generated tool called CivicScribe—a universal, AI-powered web application that helps users fill out complex PDF forms through a simple, conversational chat interface. The system is extensible via "Form Packs" to support any form without requiring code changes.
-              </p>
+          <div className="bg-surface-container-highest rounded-xl overflow-hidden flex flex-col h-full hover:bg-surface-bright transition-colors duration-300">
+            <div className="h-40 bg-surface-container relative">
+              <img className="w-full h-full object-cover mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-500" alt="Pokemon Data Showdown application showing scatter plots and data analysis" src="https://raw.githubusercontent.com/silverfrost702/data_showdown/main/plots/pokemon_main_img.webp"/>
             </div>
-            <div className="mt-8">
-              <div className="flex flex-wrap gap-2 mb-6">
-                <span className="px-2 py-0.5 rounded-full bg-surface-container-highest text-[9px] font-label font-bold text-tertiary uppercase">Flask</span>
-                <span className="px-2 py-0.5 rounded-full bg-surface-container-highest text-[9px] font-label font-bold text-tertiary uppercase">OpenAI API</span>
+            <div className="p-6 flex flex-col flex-1">
+              <h3 className="text-xl font-headline font-bold text-on-surface mb-2">Pokémon Data Showdown</h3>
+              <p className="text-sm text-on-surface-variant font-body mb-6 flex-1">
+                An interactive toolkit leveraging unsupervised ML to explore stat-based roles and build optimized, budget-constrained teams.
+              </p>
+              <div className="flex items-center justify-between mt-auto">
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-2 py-0.5 rounded-full bg-surface-container text-[8px] font-label font-bold text-tertiary uppercase border border-outline-variant/20">Streamlit</span>
+                  <span className="px-2 py-0.5 rounded-full bg-surface-container text-[8px] font-label font-bold text-tertiary uppercase border border-outline-variant/20">Sklearn</span>
+                </div>
+                <div className="flex items-center gap-4 ml-2 mt-2 sm:mt-0">
+                  <a href="https://github.com/silverfrost702/data_showdown" target="_blank" rel="noopener noreferrer" className="text-tertiary font-label text-xs tracking-widest font-black uppercase hover:opacity-70 transition-opacity whitespace-nowrap">
+                    Repo
+                  </a>
+                  <a href="https://my-pokemon-team.streamlit.app/" target="_blank" rel="noopener noreferrer" className="text-tertiary font-label text-xs tracking-widest font-black uppercase hover:opacity-70 transition-opacity whitespace-nowrap">
+                    Live
+                  </a>
+                </div>
               </div>
-              <a className="text-tertiary font-label text-xs tracking-widest font-black uppercase hover:opacity-70 transition-opacity" href="https://github.com/silverfrost702/HACKUTA-7" target="_blank" rel="noopener noreferrer">Access Source</a>
             </div>
           </div>
         </div>
@@ -126,27 +133,46 @@ export default function HomePage() {
           </div>
         </div>
         {/* Project 4: Tech Layoff Trends */}
-        <div className="md:col-span-8 group">
-          <div className="bg-surface-container rounded-xl p-8 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center border-l-4 border-primary/10 hover:border-primary transition-all duration-500">
-            <div>
-              <div className="flex items-center gap-3 mb-4">
-                <span className="text-xs font-label font-bold text-on-surface-variant opacity-50">TREND_ANALYSIS_04</span>
-              </div>
-              <h3 className="text-2xl font-headline font-bold text-on-surface mb-4">Tech Layoff Trends Analysis</h3>
-              <p className="text-on-surface-variant font-body text-sm leading-relaxed mb-6">
-                This project explores the global tech layoff trends between 2020 and 2025 using visualization and data-driven insights. The goal is to identify which industries, countries, and companies were most affected and highlight temporal trends in layoffs.
+        <div className="md:col-span-4 group">
+          <div className="bg-surface-container-highest rounded-xl overflow-hidden flex flex-col h-full hover:bg-surface-bright transition-colors duration-300">
+            <div className="h-40 bg-surface-container">
+              <img className="w-full h-full object-cover mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-500" alt="complex dashboard with various colorful charts and heatmaps against a dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYir-oM99mLuUhpGN-LP1dpC8PeqBW4MEqP3JoKOZqZV1iqF3-Iuz8lLT-nSEMB4H4fhc5MKeKNukiwCefHjWVZCOJfGyAsWgEEV2Z6bsHZoSzXHEFSnVSYDSdSU9cT0fl40OGCEL6Ysgsmghy5EJ3Xo7sZIL6nEQ8r90a1xhxtKNCXGE-cS67R6nGTDoZu46VlLle-DLYZ90BBLDp0PQ_KECe7RrCPYupAJvdS6L6uSKqoelKV5l-syJCu965eMIpf-MdLbJjMhHY"/>
+            </div>
+            <div className="p-6 flex flex-col flex-1">
+              <h3 className="text-xl font-headline font-bold text-on-surface mb-2">Tech Layoff Trends Analysis</h3>
+              <p className="text-sm text-on-surface-variant font-body mb-6 flex-1">
+                Exploring global tech layoff trends between 2020 and 2025 using visualization and data-driven insights.
               </p>
-              <div className="flex gap-4 items-center">
-                <span className="text-[10px] font-label font-bold text-primary uppercase">Tableau</span>
-                <span className="text-[10px] font-label font-bold text-primary uppercase">Pandas</span>
-                <span className="text-[10px] font-label font-bold text-primary uppercase">EDA</span>
-                <a href="https://github.com/silverfrost702/Projects/tree/main/tech_layoff_trends" target="_blank" rel="noopener noreferrer" className="ml-auto text-primary font-label text-xs tracking-widest font-black uppercase hover:opacity-70 transition-opacity">
+              <div className="flex items-center justify-between mt-auto">
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-2 py-0.5 rounded-full bg-surface-container text-[8px] font-label font-bold text-primary uppercase border border-outline-variant/20">Tableau</span>
+                  <span className="px-2 py-0.5 rounded-full bg-surface-container text-[8px] font-label font-bold text-primary uppercase border border-outline-variant/20">Pandas</span>
+                </div>
+                <a href="https://github.com/silverfrost702/Projects/tree/main/tech_layoff_trends" target="_blank" rel="noopener noreferrer" className="text-primary font-label text-xs tracking-widest font-black uppercase hover:opacity-70 transition-opacity whitespace-nowrap ml-2">
                   Visit Repo
                 </a>
               </div>
             </div>
-            <div className="glass-card p-4 rounded-lg">
-              <img className="rounded opacity-80" alt="complex dashboard with various colorful charts and heatmaps against a dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYir-oM99mLuUhpGN-LP1dpC8PeqBW4MEqP3JoKOZqZV1iqF3-Iuz8lLT-nSEMB4H4fhc5MKeKNukiwCefHjWVZCOJfGyAsWgEEV2Z6bsHZoSzXHEFSnVSYDSdSU9cT0fl40OGCEL6Ysgsmghy5EJ3Xo7sZIL6nEQ8r90a1xhxtKNCXGE-cS67R6nGTDoZu46VlLle-DLYZ90BBLDp0PQ_KECe7RrCPYupAJvdS6L6uSKqoelKV5l-syJCu965eMIpf-MdLbJjMhHY"/>
+          </div>
+        </div>
+        {/* Project 2: HackUTA */}
+        <div className="md:col-span-4 group">
+          <div className="bg-surface-container-high rounded-xl p-8 flex flex-col h-full border-b-4 border-tertiary/20 hover:border-tertiary transition-all duration-500">
+            <div className="mb-auto">
+              <div className="text-tertiary text-4xl mb-6 font-black font-mono">
+                {">_"}
+              </div>
+              <h3 className="text-2xl font-headline font-bold text-on-surface mb-3">HackUTA 7</h3>
+              <p className="text-on-surface-variant text-sm font-body leading-relaxed max-w-sm">
+                A collaborative project where I worked in a group and generated tool called CivicScribe—a universal, AI-powered web application that helps users fill out complex PDF forms through a simple, conversational chat interface. The system is extensible via "Form Packs" to support any form without requiring code changes.
+              </p>
+            </div>
+            <div className="mt-8">
+              <div className="flex flex-wrap gap-2 mb-6">
+                <span className="px-2 py-0.5 rounded-full bg-surface-container-highest text-[9px] font-label font-bold text-tertiary uppercase">Flask</span>
+                <span className="px-2 py-0.5 rounded-full bg-surface-container-highest text-[9px] font-label font-bold text-tertiary uppercase">OpenAI API</span>
+              </div>
+              <a className="text-tertiary font-label text-xs tracking-widest font-black uppercase hover:opacity-70 transition-opacity" href="https://github.com/silverfrost702/HACKUTA-7" target="_blank" rel="noopener noreferrer">Access Source</a>
             </div>
           </div>
         </div>
@@ -177,35 +203,6 @@ export default function HomePage() {
               </div>
               <div className="flex-1 order-1 md:order-2">
                 <img className="rounded-xl shadow-2xl grayscale group-hover:grayscale-0 transition-all duration-500" alt="clean UI interface showing musical audio feature analysis with circular radar charts in vibrant cyan and magenta" src="/dashboard_img.jpg"/>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Project 7: Pokémon Data Showdown */}
-        <div className="md:col-span-12 group">
-          <div className="relative rounded-xl overflow-hidden bg-surface-container border border-outline-variant/10 hover:border-tertiary/30 transition-all duration-500">
-            <div className="absolute inset-0 opacity-5 pointer-events-none data-grid-bg"></div>
-            <div className="relative z-10 p-10 flex flex-col md:flex-row gap-12 items-center">
-              <div className="flex-1">
-                <div className="inline-block px-3 py-1 rounded bg-tertiary/10 text-tertiary text-[10px] font-black uppercase tracking-[0.2em] mb-4">Machine Learning / Data Analytics</div>
-                <h3 className="text-3xl lg:text-4xl font-headline font-bold text-on-surface mb-6 leading-tight">Pokémon Data Showdown</h3>
-                <p className="text-on-surface-variant font-body leading-relaxed mb-8">
-                  An interactive data analysis toolkit and dashboard designed to explore the structure of Pokémon battle attributes. It leverages unsupervised machine learning to uncover stat-based roles, provides deep exploratory data analysis (EDA), and includes an optimized team builder constrained by statistical budgets.
-                </p>
-                <div className="flex flex-wrap gap-2 mb-8">
-                  {["Python", "Streamlit", "Scikit-Learn", "Plotly"].map(tag => (
-                    <span key={tag} className="px-3 py-1 rounded-full bg-surface-container-highest text-[10px] font-label font-bold text-tertiary uppercase border border-outline-variant/20">{tag}</span>
-                  ))}
-                </div>
-                <div className="flex flex-wrap gap-6 items-center">
-                  <a href="https://github.com/silverfrost702/data_showdown" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-tertiary font-label font-bold tracking-widest uppercase text-sm hover:opacity-70 transition-opacity">
-                    Access Source Code
-                  </a>
-                </div>
-              </div>
-              <div className="w-full lg:max-w-md xl:max-w-lg aspect-[4/3] rounded-xl overflow-hidden shadow-2xl relative lg:ml-auto bg-surface-container-highest">
-                <img className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105 transform origin-center" alt="Pokemon Data Showdown application showing scatter plots and data analysis" src="https://raw.githubusercontent.com/silverfrost702/data_showdown/main/plots/pokemon_main_img.webp"/>
-                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent"></div>
               </div>
             </div>
           </div>
