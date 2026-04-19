@@ -37,9 +37,14 @@ export default function HomePage() {
                     <span key={tag} className="px-3 py-1 rounded-full bg-surface-container-highest text-[10px] font-label font-bold text-primary uppercase border border-outline-variant/20">{tag}</span>
                   ))}
                 </div>
-                <a href="https://github.com/silverfrost702/Year-over-Year-Analysis-of-High-Priority-Service-Incidents/tree/main" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-primary font-label font-bold tracking-widest uppercase text-sm hover:opacity-70 transition-opacity">
-                  Access Source Code
-                </a>
+                <div className="flex flex-wrap gap-6 items-center">
+                  <a href="https://github.com/silverfrost702/Year-over-Year-Analysis-of-High-Priority-Service-Incidents/tree/main" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-primary font-label font-bold tracking-widest uppercase text-sm hover:opacity-70 transition-opacity">
+                    Access Source Code
+                  </a>
+                  <a href="https://yoy-p1p2-incidents.streamlit.app/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-primary font-label font-bold tracking-widest uppercase text-sm hover:opacity-70 transition-opacity">
+                    View Demo
+                  </a>
+                </div>
               </div>
               <div className="w-full lg:max-w-md xl:max-w-lg aspect-[4/3] rounded-xl overflow-hidden shadow-2xl relative lg:ml-auto">
                 <img className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105 transform origin-center" alt="An abstract visualization of a time-series line graph with glowing neon cyan and teal peaks" src="/oit_sentinel_abstract.png"/>
