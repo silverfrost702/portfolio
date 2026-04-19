@@ -115,13 +115,13 @@ export default function HomePage() {
             <div className="h-40 bg-surface-container">
               <img className="w-full h-full object-cover mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-500" alt="dramatic upward shot of a rocket engines ignition against a dark sky with technical blueprints overlayed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOJnctTHB3FmeOgeg2svgn13cP56jFfpgPzCKj9ROKciq84H76GjovTo06TNFVPxpKSiSfZP53E-BnlbzGUSD_QGJ2wLSQsno2F7fozGC4TJF6Rnf-hjr8q4ArXafY9uyQnmBaLm4Ae9gGFV--HFrQc_SP7Lw9rwGWNpTu9D65gEMNhnc5huFxvtsbpRD6FhzD2hgbPTHhxG3BAGu9HNQXJ4Fo7VjRKepwX644bSqF5cvDg9DWKD1_wyoqd34ge8HW0bB36LcIcRuc"/>
             </div>
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-1">
               <h3 className="text-xl font-headline font-bold text-on-surface mb-2">SpaceX Launch Success Prediction</h3>
-              <p className="text-sm text-on-surface-variant font-body mb-6">
+              <p className="text-sm text-on-surface-variant font-body mb-6 flex-1">
                 Predicting the success of SpaceX rocket launches using mission parameters, payloads, and rocket configurations with machine learning.
               </p>
-              <div className="flex items-center justify-between">
-                <div className="flex -space-x-2">
+              <div className="flex items-center justify-between mt-auto">
+                <div className="flex flex-wrap gap-2">
                   <div className="w-6 h-6 rounded-full bg-primary-container border-2 border-surface-container-highest flex items-center justify-center text-[8px] font-black text-on-primary-container">PY</div>
                   <div className="w-6 h-6 rounded-full bg-secondary-container border-2 border-surface-container-highest flex items-center justify-center text-[8px] font-black text-on-secondary-container">SQL</div>
                 </div>
@@ -167,12 +167,12 @@ export default function HomePage() {
                 A collaborative project where I worked in a group and generated tool called CivicScribe—a universal, AI-powered web application that helps users fill out complex PDF forms through a simple, conversational chat interface. The system is extensible via "Form Packs" to support any form without requiring code changes.
               </p>
             </div>
-            <div className="mt-8">
-              <div className="flex flex-wrap gap-2 mb-6">
+            <div className="flex items-center justify-between mt-8">
+              <div className="flex flex-wrap gap-2">
                 <span className="px-2 py-0.5 rounded-full bg-surface-container-highest text-[9px] font-label font-bold text-tertiary uppercase">Flask</span>
                 <span className="px-2 py-0.5 rounded-full bg-surface-container-highest text-[9px] font-label font-bold text-tertiary uppercase">OpenAI API</span>
               </div>
-              <a className="text-tertiary font-label text-xs tracking-widest font-black uppercase hover:opacity-70 transition-opacity" href="https://github.com/silverfrost702/HACKUTA-7" target="_blank" rel="noopener noreferrer">Access Source</a>
+              <a className="text-tertiary font-label text-xs tracking-widest font-black uppercase hover:opacity-70 transition-opacity whitespace-nowrap ml-2" href="https://github.com/silverfrost702/HACKUTA-7" target="_blank" rel="noopener noreferrer">Access Source</a>
             </div>
           </div>
         </div>
