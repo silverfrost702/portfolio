@@ -30,7 +30,7 @@ export default function AboutPage() {
               </div>
               <div>
                 <strong className="text-on-surface font-headline uppercase tracking-wide text-sm mb-1 block">Beyond The Data</strong>
-                <p>I believe the best technical solutions come from a clear mind. On challenging days, I find my momentum by taking small breaks—a quiet cup of coffee or a short walk. Stepping away from the complexity for a moment allows me to return with the focus needed to handle high-pressure situations.</p>
+                <p>I believe the best technical solutions come from a clear mind. On challenging days, I find my momentum by taking small breaks -a quiet cup of coffee or a short walk. Stepping away from the complexity for a moment allows me to return with the focus needed to handle high-pressure situations.</p>
               </div>
             </div>
           </div>
@@ -139,60 +139,70 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="bg-surface-container-high p-8 rounded-xl flex flex-col justify-between border-t-4 border-tertiary">
-              <div>
-                <span className="material-symbols-outlined text-tertiary mb-6">
-                  database
-                </span>
-                <h3 className="text-xl font-headline font-bold mb-4">
-                  Data Engineering & Pipelines
-                </h3>
-                <p className="text-on-surface-variant text-sm leading-relaxed mb-6 font-body">
-                  Engineering highly available ETL architectures using Spark, Airflow, and Kubernetes to handle multi-terabyte datasets without latency degradation.
-                </p>
+            <div className="bg-surface-container-high p-8 rounded-xl flex flex-col border-t-4 border-tertiary h-full">
+              <div className="flex items-center gap-3 mb-8">
+                <h3 className="text-xl font-headline font-bold">Professional Journey</h3>
               </div>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] font-bold tracking-tighter font-label text-primary uppercase">
-                  Distributed Computing
-                </span>
-                <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] font-bold tracking-tighter font-label text-primary uppercase">
-                  ETL Architectures
-                </span>
-                <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] font-bold tracking-tighter font-label text-primary uppercase">
-                  Cloud Infrastructure
-                </span>
+
+              <div className="relative border-l-2 border-outline-variant/30 ml-2 space-y-6 flex-grow">
+                {/* Position 1 */}
+                <div className="relative pl-6 group">
+                  <div className="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-surface-container-highest border border-tertiary group-hover:bg-tertiary transition-colors duration-300 ring-4 ring-background"></div>
+                  <h4 className="text-base font-headline font-bold text-on-surface mb-0.5 group-hover:text-tertiary transition-colors duration-300">Data Engineer</h4>
+                  <p className="text-primary font-label text-[10px] tracking-widest uppercase font-bold mb-2">Genpact for PIMCO</p>
+                  <p className="text-on-surface-variant font-body text-xs leading-relaxed">
+                    Engineered robust data pipelines and optimized workflows for financial analytics and enterprise operations.
+                  </p>
+                </div>
+
+                {/* Position 2 */}
+                <div className="relative pl-6 group">
+                  <div className="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-surface-container-highest border border-tertiary group-hover:bg-tertiary transition-colors duration-300 ring-4 ring-background"></div>
+                  <h4 className="text-base font-headline font-bold text-on-surface mb-0.5 group-hover:text-tertiary transition-colors duration-300">Business Analyst</h4>
+                  <p className="text-primary font-label text-[10px] tracking-widest uppercase font-bold mb-2">Genpact for PIMCO</p>
+                  <p className="text-on-surface-variant font-body text-xs leading-relaxed">
+                    Bridged business needs & technical systems, analyzing data & driving decision-making processes.
+                  </p>
+                </div>
+
+                {/* Position 3 */}
+                <div className="relative pl-6 group">
+                  <div className="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-surface-container-highest border border-primary group-hover:bg-primary transition-colors duration-300 ring-4 ring-background"></div>
+                  <h4 className="text-base font-headline font-bold text-on-surface mb-0.5 group-hover:text-primary transition-colors duration-300">SDE Intern</h4>
+                  <p className="text-primary font-label text-[10px] tracking-widest uppercase font-bold mb-2">Enquero (Genpact)</p>
+                  <p className="text-on-surface-variant font-body text-xs leading-relaxed">
+                    Developed optimal code solutions and actively participated in core software project design.
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div className="bg-surface-container-high p-8 rounded-xl flex flex-col justify-between border-t-4 border-primary">
-              <div>
-                <span className="material-symbols-outlined text-primary mb-6">
-                  insights
-                </span>
-                <h3 className="text-xl font-headline font-bold mb-4">
-                  Predictive Modeling & Forecasting
-                </h3>
+            <div className="bg-surface-container-high p-8 rounded-xl flex flex-col justify-between border-t-4 border-primary h-full">
+              <div className="flex flex-col h-full">
+                <div className="flex items-center gap-3 mb-6">
+                  <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                  </svg>
+                  <h3 className="text-xl font-headline font-bold">Data Engineering & Analytics</h3>
+                </div>
                 <p className="text-on-surface-variant text-sm leading-relaxed mb-6 font-body">
-                  Developing bespoke machine learning models with a focus on interpretability and bias-mitigation for enterprise-level forecasting.
+                  Engineering highly available ETL architectures using Spark, Airflow, and Kubernetes to handle multi-terabyte datasets without latency degradation. Concurrently developing bespoke predictive machine learning models with a focus on interpretability and bias mitigation for enterprise-level forecasting.
                 </p>
-              </div>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] font-bold tracking-tighter font-label text-tertiary uppercase">
-                  XGBoost
-                </span>
-                <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] font-bold tracking-tighter font-label text-tertiary uppercase">
-                  Time-Series Forecasting
-                </span>
-                <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] font-bold tracking-tighter font-label text-tertiary uppercase">
-                  Bias Mitigation
-                </span>
+                <div className="flex flex-wrap gap-2 mt-auto">
+                  <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] font-bold tracking-tighter font-label text-primary uppercase">Distributed ETL</span>
+                  <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] font-bold tracking-tighter font-label text-tertiary uppercase">XGBoost</span>
+                  <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] font-bold tracking-tighter font-label text-primary uppercase">Cloud Infra</span>
+                  <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] font-bold tracking-tighter font-label text-tertiary uppercase">Time-Series</span>
+                </div>
               </div>
             </div>
 
-            <div className="md:col-span-2 bg-surface-container-lowest border border-outline-variant/10 p-10 rounded-xl flex items-center gap-12">
-              <div className="hidden sm:block">
-                <div className="w-32 h-32 rounded-full border-2 border-dashed border-primary/30 flex items-center justify-center p-4">
-                  <span className="material-symbols-outlined text-primary text-5xl">
+            <div className="md:col-span-2 bg-surface-container-lowest border border-outline-variant/10 p-10 rounded-xl flex items-center gap-12 h-full">
+              <div className="hidden sm:block shrink-0">
+                <div className="w-24 h-24 rounded-full border-2 border-dashed border-primary/30 flex items-center justify-center p-4">
+                  <span className="material-symbols-outlined text-primary text-4xl">
                     Veracity
                   </span>
                 </div>
