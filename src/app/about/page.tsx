@@ -79,7 +79,7 @@ export default function AboutPage() {
                       University of Texas at Arlington
                     </p>
                     <p className="text-on-surface-variant font-label text-sm uppercase tracking-widest mt-1">
-                      Expected 2026
+                      May 2026
                     </p>
                   </div>
                   <div className="mt-4 md:mt-0">
